@@ -42,6 +42,8 @@ is returned if there are no matches.
 
 `sigint`: Default is `false`. A ^C may be pressed during the input process to abort the text entry. If sigint it `false`, prompt returns `null`. If sigint is `true` the ^C will be handled in the traditional way: as a SIGINT signal causing process to exit with code 130. 
 
+`ask`: The question being asked of the user, will be output to terminal
+
 # LINE EDITING
 Line editing is enabled in the non-hidden mode. (use up/down arrows for history and backspace and left/right arrows for editing)
 
